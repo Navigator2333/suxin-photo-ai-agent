@@ -7,6 +7,7 @@
 ![Spring AI](https://img.shields.io/badge/Spring%20AI-1.0.0-6DB33F?logo=spring&logoColor=white)
 ![Spring AI Alibaba](https://img.shields.io/badge/Spring%20AI%20Alibaba-1.0.0.2-FF6A00)
 ![DashScope](https://img.shields.io/badge/Model-qwen--plus-8B5CF6)
+![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
 
 ---
 
@@ -215,4 +216,14 @@ mvn test -Dtest='!PhotoAppTest'
 
 ## License
 
-本项目尚未添加开源许可证。如需开源分发，建议补充 `LICENSE` 文件（如 [MIT](https://choosealicense.com/licenses/mit/)）。
+Copyright 2026 simon (Navigator2333)
+
+本项目基于 **Apache License 2.0** 开源发布，完整协议正文见项目根目录的 [LICENSE](LICENSE) 文件。
+
+在遵守协议条款的前提下，你可以自由使用、修改、分发本项目，包括商业用途。主要条款：
+
+- **允许** — 商业使用、修改、分发、私人使用
+- **要求** — 保留版权声明与协议副本；若修改过文件，需标注变更；若原作品附带 `NOTICE` 文件，分发时需一并保留
+- **专利授权** — 贡献者向使用者授予显式专利许可；若你发起专利诉讼指控本项目侵权，该授权自动终止
+- **不授予** — 商标使用权
+- **免责** — 软件按「现状」提供，不附带任何明示或默示担保
