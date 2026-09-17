@@ -1,0 +1,25 @@
+spring:
+  datasource:
+    url:
+    username:
+    password:
+  ai:
+#    model:
+#      embedding: dashscope
+    vectorstore:
+      pgvector:
+        initialize-schema: true
+        remove-existing-vector-store-table: true
+        index-type: HNSW
+#        dimensions: 1536
+        distance-type: COSINE_DISTANCE
+        max-document-batch-size: 10 # Optional: Maximum number of documents per batch
+    dashscope:
+      # 需要替换为你自己的 key
+      api-key:
+      chat:
+        options:
+          model: qwen-plus
+      embedding:
+        options:
+          model: qwen3.7-text-embedding
